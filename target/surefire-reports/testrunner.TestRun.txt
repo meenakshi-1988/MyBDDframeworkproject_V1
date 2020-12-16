@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.TestRun
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 630.288 s <<< FAILURE! - in testrunner.TestRun
+Successful Login with Valid Credentials(Login)  Time elapsed: 604.35 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-253U4FA', ip: '10.0.0.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0078C013+3194899]
+	Ordinal0 [0x00676021+2056225]
+	Ordinal0 [0x0050F608+587272]
+	Ordinal0 [0x005036EC+538348]
+	Ordinal0 [0x00502A6F+535151]
+	Ordinal0 [0x00502E45+536133]
+	Ordinal0 [0x005027A5+534437]
+	Ordinal0 [0x0050BBC9+572361]
+	Ordinal0 [0x00502754+534356]
+	Ordinal0 [0x00503475+537717]
+	Ordinal0 [0x00502A6F+535151]
+	Ordinal0 [0x00502E45+536133]
+	Ordinal0 [0x005027A5+534437]
+	Ordinal0 [0x00509EFE+564990]
+	Ordinal0 [0x00502754+534356]
+	Ordinal0 [0x00503475+537717]
+	Ordinal0 [0x00502A6F+535151]
+	Ordinal0 [0x00502E45+536133]
+	Ordinal0 [0x005027A5+534437]
+	Ordinal0 [0x00508186+557446]
+	Ordinal0 [0x00502754+534356]
+	Ordinal0 [0x00503475+537717]
+	Ordinal0 [0x00502A6F+535151]
+	Ordinal0 [0x00502E45+536133]
+	Ordinal0 [0x005027A5+534437]
+	Ordinal0 [0x005074A7+554151]
+	Ordinal0 [0x00502754+534356]
+	Ordinal0 [0x00503475+537717]
+	Ordinal0 [0x00502A6F+535151]
+	Ordinal0 [0x00502E45+536133]
+	Ordinal0 [0x005027A5+534437]
+	Ordinal0 [0x004FF06C+520300]
+	Ordinal0 [0x00502754+534356]
+	Ordinal0 [0x005025BF+533951]
+	Ordinal0 [0x005023D3+533459]
+	Ordinal0 [0x00510620+591392]
+	Ordinal0 [0x004B2A0C+207372]
+	Ordinal0 [0x004B1D0D+204045]
+	Ordinal0 [0x004AFC1B+195611]
+	Ordinal0 [0x00493B7F+80767]
+	Ordinal0 [0x00494B4E+84814]
+	Ordinal0 [0x00494AD9+84697]
+	Ordinal0 [0x0068CE64+2149988]
+	GetHandleVerifier [0x008FBE95+1400773]
+	GetHandleVerifier [0x008FBB61+1399953]
+	GetHandleVerifier [0x009031FA+1430314]
+	GetHandleVerifier [0x008FC69F+1402831]
+	Ordinal0 [0x00683D61+2112865]
+	Ordinal0 [0x0068E5CB+2155979]
+	Ordinal0 [0x0068E6F5+2156277]
+	Ordinal0 [0x0069F26E+2224750]
+	BaseThreadInitThunk [0x75CEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77C975F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77C975C4+180]
+
+
+Login Data Driven(Login)  Time elapsed: 8.598 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+
